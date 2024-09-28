@@ -16,6 +16,7 @@
     max-width: 1700px;
     margin: 0 auto;
 }
+
 nav {
     padding: 1rem;
     background-color: black;
@@ -85,9 +86,18 @@ nav {
     font-weight: bold;
 }
 
-.data {
-    background-image: url(resources/bg);
-    height: 1400px;
-    background-repeat: no-repeat ;
-    background-size: cover;
+.personalinfo {
+    text-align: center;
+    padding: 100px;
+}
+
+.personalinfo h2 {
+    font-size: 40px;
+    font-family: thinking;
+}
+
+.personalinfo p {
+    padding: 50px;
+    font-size: 20px;
+    font-weight: bold;
 }
