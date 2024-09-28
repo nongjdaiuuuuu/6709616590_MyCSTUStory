@@ -25,6 +25,8 @@ body {
 nav {
     padding: 1rem;
     background-color: black;
+    position: sticky; 
+    top: 0; 
 }
 
 .nav-con {
@@ -108,4 +110,10 @@ nav {
 
 .clip {
     text-align: center;
+    padding: 30px ;
+}
+
+.social {
+    text-align: center;
+    padding: 50px 0;
 }
