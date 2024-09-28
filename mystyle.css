@@ -1,0 +1,54 @@
+@font-face {
+    font-family: newfont;
+    src: url(resources/FCSubjectBold.ttf);
+    font-family: thinking;
+    src: url(resources/Thinking.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: newfont;
+}
+
+nav {
+    padding: 1rem;
+    background-color: black;
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+}
+.logo a {
+    font-family: thinking;
+    font-size: 1.6rem;
+    color: white;
+    text-decoration: none;
+    margin: 0 3rem;
+}   
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li {
+    margin: 0 4.5rem;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 27px 15px;
+    
+}
+
+.menu li a:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+    padding: 31px 15px;
+}
