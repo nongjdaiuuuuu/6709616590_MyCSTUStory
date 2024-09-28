@@ -140,3 +140,21 @@ nav {
     display: flex;
     justify-content: space-between;
 }
+
+.datainfo2 {
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+}
+
+.datainfo2 h1 {
+    font-family: thinking;
+    font-size: 80px;
+}
+
+.datainfo2 p {
+    padding: 25px ;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px;
+}
