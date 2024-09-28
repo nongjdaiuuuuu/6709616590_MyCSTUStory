@@ -117,3 +117,26 @@ nav {
     text-align: center;
     padding: 50px 0;
 }
+
+.myjourney {
+    text-align: center;
+    padding: 30px ;
+}
+
+.myjourney h1 {
+    font-family: thinking;
+    padding: 20px;
+    font-size: 50px;
+}
+
+.myjourney h2 {
+    font-family: thinking;
+    text-align: left;
+    padding: 40px;
+    font-size: 25px;
+}
+
+.page2 {
+    display: flex;
+    justify-content: space-between;
+}
