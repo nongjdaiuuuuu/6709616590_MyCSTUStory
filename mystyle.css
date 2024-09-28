@@ -12,6 +12,10 @@
     font-family: newfont;
 }
 
+.container {
+    max-width: 1700px;
+    margin: 0 auto;
+}
 nav {
     padding: 1rem;
     background-color: black;
