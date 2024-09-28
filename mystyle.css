@@ -56,3 +56,38 @@ nav {
     color: black;
     padding: 31px 15px;
 }
+
+.datacon {
+    display: flex;
+    padding: 80px 0;
+}
+
+.datainfo {
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    
+}
+
+.dataimg img {
+    width: 70%;
+    padding: 40px ;
+}
+
+.datainfo h1 {
+    font-family: thinking;
+    font-size: 80px;
+}
+
+.datainfo p {
+    padding: 25px ;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.data {
+    background-image: url(resources/bg);
+    height: 1400px;
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
